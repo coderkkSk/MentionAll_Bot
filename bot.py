@@ -25,7 +25,7 @@ async def start(event):
 
 @client.on(events.NewMessage(pattern="^/help$"))
 async def help(event):
-  helptext = "**Help Menu of MentionAll_Bot**\n\nCommand: /mentionall\n__You can use this command with text what you want to say to others.__You can you this command as a reply to any message. Bot will tag users to that replied messsage__.\n\n")
+  helptext = "**Help Menu of MentionAll_Bot**\n\nCommand: /mentionall\n__You can use this command with text what you want to say to others.__You can you this command as a reply to any message. Bot will tag users to that replied messsage__.\n\n"
   
 @client.on(events.NewMessage(pattern="^/mentionall ?(.*)"))
 async def mentionall(event):
